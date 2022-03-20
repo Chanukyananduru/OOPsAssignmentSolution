@@ -1,19 +1,19 @@
-package department;
+package com.department;
 
 public class techDepartment extends superDepartment {
-	String departmentName() {
+	public String departmentName() {
 		return "Tech Department";
 	}
 	
-	String getTodaysWork() {
+	public String getTodaysWork() {
 		return "Complete coding of module 1";
 	}
 
-	String getWorkDeadline() {
+	public String getWorkDeadline() {
 		return "Complete by EOD";
 	}
 	
-	String getTechStackInformation() {
+	public String getTechStackInformation() {
 		return "core JAVA";
 	}
 

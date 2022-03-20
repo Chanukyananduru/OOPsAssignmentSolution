@@ -1,16 +1,16 @@
-package department;
+package com.department;
 
 public class adminDepartment extends superDepartment{
 
-	String departmentName() {
+	public String departmentName() {
 		return "Admin Department";
 	}
 	
-	String getTodaysWork() {
+	public String getTodaysWork() {
 		return "Complete your documents submission";
 	}
 
-	String getWorkDeadline() {
+	public String getWorkDeadline() {
 		return "Complete by EOD";
 	}
 

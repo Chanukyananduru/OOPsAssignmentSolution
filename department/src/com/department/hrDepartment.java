@@ -1,20 +1,20 @@
-package department;
+package com.department;
 
 public class hrDepartment extends superDepartment {
 
-	String departmentName() {
+	public String departmentName() {
 		return "HR Department";
 	}
 	
-	String getTodaysWork() {
+	public String getTodaysWork() {
 		return "Fill today's timesheet and mark your attendance";
 	}
 
-	String getWorkDeadline() {
+	public String getWorkDeadline() {
 		return "Complete by EOD";
 	}
 	
-	String doActivity() {
+	public String doActivity() {
 		return "Team lunch";
 	}
 

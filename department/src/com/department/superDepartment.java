@@ -1,20 +1,20 @@
-package department;
+package com.department;
 
 public class superDepartment {
 
-	String departmentName() {
+	public String departmentName() {
 		return "Super Department";
 	}
 	
-	String getTodaysWork() {
+	public String getTodaysWork() {
 		return "No work as of now";
 	}
 	
-	String getWorkDeadline() {
+	public String getWorkDeadline() {
 		return "Nil";
 	}
 	
-	String isTodayAHoliday() {
+	public String isTodayAHoliday() {
 		return "Today is not a holiday";
 	}
 }
